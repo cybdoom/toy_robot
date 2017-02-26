@@ -1,0 +1,8 @@
+require './src/field'
+require './src/robot'
+require './src/command/base'
+require './src/command/place'
+require './src/command/move'
+require './src/command/left'
+require './src/command/right'
+require './src/command/report'
