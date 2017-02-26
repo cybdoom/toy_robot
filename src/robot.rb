@@ -1,6 +1,8 @@
 class Robot
 
-  DIRECTIONS = [:north, :east, :south, :west] # listed clockwise to be operated easier
+  attr_writer :coordinates
+  attr_writer :rotation
+  attr_writer :palced
 
   def initialize
     @placed = false
