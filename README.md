@@ -10,7 +10,7 @@ So something like this is rather legal (being in the root folder):
 
 To configure basic environment for running tests or production code you will need to run something like:
 
-> bundle install/
+> bundle install
 
 meaning that You are in the root folder and You have Bundle gem installed (http://bundler.io/)
 
