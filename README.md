@@ -6,4 +6,5 @@ So something like this is rather legal (being in the root folder):
 
 # Auto tests
 Are You sure they are required to highlight this problem more?
-If You still are, I will provide RSpec code examples after our interview.
+If You still are, I can provide some RSpec code examples after our interview (in case it will happen).
+Thank You for interesting task :)
