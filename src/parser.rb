@@ -13,7 +13,7 @@ class Parser
     :report
   ]
 
-  def parse(line) # returns command
+  def parse(line) # returns command and arguments
     raise InvalidInstructionFormat if line.nil? || line.empty?
 
     chunks = line.split(' ')
