@@ -1,4 +1,5 @@
 require './src/command/base'
+require './src/robot'
 
 RSpec.describe Command::Base do
   describe 'execute' do
