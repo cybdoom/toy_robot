@@ -7,14 +7,36 @@ module Command
 
       case target.direction
       when :north
-        coordinates.last += 1
+        if coordinates[:y] < Field::HEIGHT - 1
+          coordinates[:y] += 1
+        else
+          print_warning
+        end
       when :east
-        coordinates.first += 1
+        if coordinates[:x] < Field::WIDTH - 1
+          coordinates[:x] += 1
+        else
+          print_warning
+        end
       when :south
-        coordinates.last -= 1
+        if coordinates[:y] > 0
+          coordinates[:y] -= 1
+        else
+          print_warning
+        end
       when :west
-        coordinates.first -= 1
+        if coordinates[:x] > 0
+          coordinates[:x] -= 1
+        else
+          print_warning
+        end
       end
+    end
+
+    private
+
+    def print_warning
+      $stdout.puts 'Kamikadze mode is required to execute fatal commands :)'
     end
 
   end
