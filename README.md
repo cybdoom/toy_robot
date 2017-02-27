@@ -2,7 +2,7 @@
 
 Base executable is ruby simulator.rb file in the root.
 It should be executed as regular ruby script. At least one command line argument is required to run simpulator successfully. It should be a string with path to input instuctions file.
-So something like this is rather legal (being in the root folder):
+So something like this is rather legal (if You are at the root folder):
 
 > ruby simulator.rb ./examples/2.txt
 
@@ -12,8 +12,7 @@ To configure basic environment for running tests or production code you will nee
 
 > bundle install
 
-meaning that You are in the root folder and You have Bundle gem installed (http://bundler.io/)
-
+meaning You are at the root folder and You have Bundle gem installed (http://bundler.io/)
 
 # Testing
 
